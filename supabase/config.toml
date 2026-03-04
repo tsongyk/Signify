@@ -1,0 +1,4 @@
+project_id = "irmoefcfmnpuuhulmyxe"
+
+[functions.detect-sign]
+verify_jwt = false
