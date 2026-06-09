@@ -72,7 +72,7 @@ public/
 ### Prerequisites
 - [Node.js](https://nodejs.org) and npm installed
 - A [Supabase](https://supabase.com) project
-- A Lovable API key with access to Claude
+- API key with access to Claude
 
 ### Installation
 
