@@ -82,39 +82,6 @@ cd Signify
 npm install
 ```
 
-### Environment Variables
-
-Create a `.env` file in the root:
-
-```env
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-In your Supabase project, add the following secret to your Edge Function:
-
-```
-LOVABLE_API_KEY=your_lovable_api_key
-```
-
-### Running Locally
-
-```bash
-npm run dev
-```
-
-### ASL Images
-
-Place your hand sign images in `public/asl/` named `A.png` through `Z.png`. Free public domain images are available from [Wikimedia Commons](https://commons.wikimedia.org/wiki/American_manual_alphabet).
-
----
-
-## Deploying the Edge Function
-
-```bash
-supabase functions deploy detect-sign
-```
-
 ---
 
 ## License
